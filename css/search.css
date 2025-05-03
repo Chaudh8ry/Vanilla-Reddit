@@ -1,0 +1,20 @@
+.search-input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.search{
+  display: flex;
+  gap: 10px;
+  width: 528px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  transition: background-color 0.4s;
+}
+
+.search:hover{
+  background-color: rgb(219, 228, 233);
+}
